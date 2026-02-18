@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Mahasiswa09 {
     String nama;
     String nim;
@@ -20,7 +18,6 @@ public class Mahasiswa09 {
     void updateIPK(double ipkBaru) {
         if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
             ipk = ipkBaru;
-            System.out.println("IPK Berhasil Diperbarui");
         } else {
             System.out.println("IPK Tidak Valid. Harus Antara 0.0 dan 4.0");
         }
